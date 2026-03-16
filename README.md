@@ -1,4 +1,4 @@
-# MyMainWebsite
+# Personal Website
 
 ![Website Status](https://img.shields.io/badge/website-online-brightgreen?style=for-the-badge&logo=googlechrome&logoColor=white) ✅
 
