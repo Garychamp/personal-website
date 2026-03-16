@@ -181,7 +181,6 @@ This project is open source and available under the MIT License. You are free to
 **Gary Hoare**
 
 - **GitHub**: [@Garychamp](https://github.com/Garychamp)
-- **Email**: [garyhoare18@gmail.com](mailto:garyhoare18@gmail.com)
 - **Website**: [https://garychamp.github.io/MyMainWebsite](https://garychamp.github.io/MyMainWebsite)
 
 ---
