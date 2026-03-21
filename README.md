@@ -6,7 +6,7 @@ A modern, responsive personal portfolio website built with vanilla HTML, CSS, an
 
 ## 🌐 Live Demo
 
-**Visit the live website:** [https://garychamp.github.io/MyMainWebsite](https://garychamp.github.io/MyMainWebsite)
+**Visit the live website:** [https://garychamp.github.io/personal-website/]
 
 The site is automatically deployed to GitHub Pages with every push to the main branch.
 
@@ -181,7 +181,7 @@ This project is open source and available under the MIT License. You are free to
 **Gary Hoare**
 
 - **GitHub**: [@Garychamp](https://github.com/Garychamp)
-- **Website**: [https://garychamp.github.io/MyMainWebsite](https://garychamp.github.io/MyMainWebsite)
+- **Website**: [https://garychamp.github.io/personal-website/]
 
 ---
 
