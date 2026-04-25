@@ -1,56 +1,88 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyWebsite2</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
     <script src="javascript.js"></script>
-</head>
-<body>
-
+  </head>
+  <body>
     <!-- Background video (autoplay must be muted on most browsers) -->
-    <video id="bg-video" autoplay muted loop playsinline preload="auto" poster="Media/background.jpg" aria-hidden="true" tabindex="-1"
-           data-mobile-webm="Media/background-mobile.webm" data-mobile-mp4="Media/background-mobile.mp4">
-        <source src="Media/background.webm" type="video/webm">
-        <source src="Media/background.mp4" type="video/mp4">
-        <!-- Add additional source tags for other formats if available -->
-        Your browser does not support the video tag.
+    <video
+      id="bg-video"
+      autoplay
+      muted
+      loop
+      playsinline
+      preload="auto"
+      poster="Media/background.jpg"
+      aria-hidden="true"
+      tabindex="-1"
+      data-mobile-webm="Media/background-mobile.webm"
+      data-mobile-mp4="Media/background-mobile.mp4"
+    >
+      <source src="Media/background.webm" type="video/webm" />
+      <source src="Media/background.mp4" type="video/mp4" />
+      <!-- Add additional source tags for other formats if available -->
+      Your browser does not support the video tag.
     </video>
 
     <!-- Subtle overlay to improve text contrast over video -->
     <div id="bg-overlay" aria-hidden="true" tabindex="-1"></div>
 
     <main class="content loading">
-
-    <nav>
-        <div class="nav-left"><a href="index.html" class="home-link">Gary Hoare</a></div>
+      <nav>
+        <div class="nav-left">
+          <a href="index.html" class="home-link">Gary Hoare</a>
+        </div>
         <ul class="nav-right">
-            <li><a href="about.html">About</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li class="dropdown">
-                <a href="#" class="dropbtn">Connect</a>
-                <div class="dropdown-content">
-                    <a href="https://github.com/Garychamp" target="_blank">GitHub</a>
-                    <a href="mailto:garyhoare18@gmail.com">Email</a>
-                </div>
-            </li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn">Connect</a>
+            <div class="dropdown-content">
+              <a href="https://github.com/Garychamp" target="_blank">GitHub</a>
+              <a href="mailto:garyhoare18@gmail.com">Email</a>
+            </div>
+          </li>
         </ul>
-    </nav>
+      </nav>
 
-    <!-- Toggle to pause/play the background video for accessibility/data savings -->
-    <button id="video-toggle" class="video-toggle" aria-pressed="false" aria-label="Pause background video">Pause background</button>
+      <!-- Toggle to pause/play the background video for accessibility/data savings -->
+      <button
+        id="video-toggle"
+        class="video-toggle"
+        aria-pressed="false"
+        aria-label="Pause background video"
+      >
+        Pause background
+      </button>
 
-        <h1>Developing clean code<br> And sleek interfaces</h1>
-        <h2>Front-end developer (HTML, CSS & Javascript)</h2> 
-        <h3>Developing the websites of tomorrow, today</h3>      </main>
-
+      <h1>
+        Developing clean code<br />
+        And sleek interfaces
+      </h1>
+      <h2>Front-end developer (HTML, CSS & Javascript)</h2>
+      <h3>Developing the websites of tomorrow, today</h3>
+    </main>
 
     <footer>
-        © 2025 Gary Hoare. All Rights Reserved.
+      <a
+        href="https://github.com/Garychamp"
+        target="_blank"
+        class="footer-github"
+        ><i class="bi bi-github"></i
+      ></a>
+      <div class="footer-text">
+        Copyright © 2026 Gary Hoare. All Rights Reserved.
+      </div>
     </footer>
-    
-</body>
+  </body>
 </html>
