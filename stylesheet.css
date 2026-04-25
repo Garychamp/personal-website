@@ -389,15 +389,34 @@ p {
     outline: 2px solid red;
 }
 
-footer {display: flex;
-justify-content: flex-start;
-align-items: center;
-height: 50px;
-background-color: black;
-font-size: 15px;
-color: white;
-text-shadow: 2px 2px 4px #000000;
-padding-left: 50px;}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: black;
+    font-size: 16px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    gap: 6px;
+}
+
+.footer-github {
+    color: white;
+    font-size: 32px;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.footer-github:hover {
+    color: #cccccc;
+}
+
+.footer-text {
+    color: white;
+    font-size: 16px;
+}
 
 /* Background video styles */
 #bg-video {
