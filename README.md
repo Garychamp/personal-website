@@ -8,21 +8,6 @@ A modern, responsive personal portfolio website built with vanilla HTML, CSS, an
 
 **Visit the live website:** [https://garychamp.github.io/personal-website/]
 
-The site is automatically deployed to GitHub Pages with every push to the main branch.
-
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Technology Stack](#technology-stack)
-- [Getting Started](#getting-started)
-- [Local Development](#local-development)
-- [Deployment](#deployment)
-- [File Descriptions](#file-descriptions)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## ✨ Features
 
 - **Responsive Design**: Fully responsive layout that works seamlessly across desktop, tablet, and mobile devices
@@ -185,7 +170,7 @@ This project is open source and available under the MIT License. You are free to
 
 ---
 
-**Last Updated:** 2026-03-16 14:11:11  
+**Last Updated:** 03-Sep-2026
 **Status:** Actively Maintained ✅
 
 *Created following The Odin Project curriculum. Deployed to GitHub Pages with automatic CI/CD via GitHub Actions.*
